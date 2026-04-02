@@ -1,6 +1,10 @@
+import { Button } from "@/components/ui/button"
+
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+      <Button variant="outline">Hello World</Button>
+    </div>
   )
 }
 export default page
